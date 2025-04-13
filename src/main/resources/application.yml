@@ -1,1 +1,8 @@
-spring.application.name=echobot
+spring:
+  application:
+    name: echobot
+
+vk:
+  bot:
+    token: ${TOKEN}
+    group-id: ${GROUP_ID}
